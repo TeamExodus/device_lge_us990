@@ -1,1 +1,1 @@
-add_lunch_combo to_us990-userdebug
+add_lunch_combo exodus_us990-userdebug

@@ -1,12 +1,12 @@
 $(call inherit-product, device/lge/us990/full_us990.mk)
 
-# Inherit some common TO tuff.
-$(call inherit-product, vendor/to/config/common_full_phone.mk)
+# Inherit some common EXODUS stuff.
+$(call inherit-product, vendor/exodus/config/common_full_phone.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/to/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/exodus/config/nfc_enhanced.mk)
 
-PRODUCT_NAME := to_us990
+PRODUCT_NAME := exodus_us990
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_DEVICE="g3" \
